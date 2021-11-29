@@ -1,0 +1,84 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.content-container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  max-width: 971px;
+}
+.form-img-container {
+  display: flex;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.mainHeading {
+  color: #171f46;
+  font-size: 35px;
+}
+.title {
+  color: #b5b7c4;
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.inputText {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #b5b7c4;
+  margin-bottom: 20px;
+}
+.submitButton {
+  background-color: #8b5cf6;
+  border: none;
+  width: 40%;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+.appoint-img {
+  padding-left: 20px;
+}
+.appointment-starContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.belowHead {
+  color: #171f46;
+  font-size: 20px;
+  margin-top: 24px;
+}
+.starButton {
+  background-color: transparent;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-top: 20px;
+}
+.changeBtn {
+  color: white;
+  background-color: #8b5cf6;
+}
+.normalBtn {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+.appointmentsList {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
